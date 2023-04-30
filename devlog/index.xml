@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:view.title/></title>
+    <b:skin><![CDATA[
+    /*css code*/
+    ]]></b:skin>
+  </head>
+  <body>
+    <div class='container'>
+      <b:section class='header' id='header' name='Header'/>
+    </div>
+  </body>
+</html>

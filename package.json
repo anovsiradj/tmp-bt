@@ -1,0 +1,10 @@
+{
+  "name": "@anovsiradj/btemplates",
+  "version": "0.0.0",
+  "author": "Mayendra Costanov (anovsiradj) <anov.siradj22@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bs-v5@npm:bootstrap": "~5"
+  }
+}

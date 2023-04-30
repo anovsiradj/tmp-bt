@@ -1,0 +1,8 @@
+
+/*.lock
+/layout.xml
+/contents.xml
+
+node_modules/
+php_packages/
+env*/

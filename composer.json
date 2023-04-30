@@ -1,0 +1,49 @@
+{
+    "name": "anovsiradj/btemplates",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mayendra Costanov (anovsiradj)",
+            "email": "anov.siradj22@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "config": {
+        "vendor-dir": "php_packages",
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Blogger\\": "classes/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii2-framework"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "yiisoft/yii2": "@dev",
+        "yiisoft/html": "@dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "@stable",
+        "filp/whoops": "@stable"
+    },
+    "provide": {
+        "yiisoft/yii2-composer": "*",
+        "ezyang/htmlpurifier": "*",
+        "cebe/markdown": "*",
+        "bower-asset/jquery": "*",
+        "bower-asset/inputmask": "*",
+        "bower-asset/punycode": "*",
+        "bower-asset/yii2-pjax": "*",
+        "paragonie/random_compat": "*"
+    }
+}
